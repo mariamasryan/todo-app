@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  width: 100%;
+}
+.floatingButtonWrapper{
+  position: absolute;
+  bottom: 22px;
+  right: 124px;
+}
+::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
